@@ -21,6 +21,8 @@
 <bean id="miSecretario" class="InversionOfControl.SecretarioEmpleado">
 
     <property name="informeNuevo" ref="miInforme"></property>
+    <property name="email" value="Secretario@fundacionview.org"></property>
+    <property name="nombreEmpresa" value="Fundacion View"></property>
 
 </bean>
 

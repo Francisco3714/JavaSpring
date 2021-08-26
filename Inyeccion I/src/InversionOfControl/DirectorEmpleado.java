@@ -15,7 +15,6 @@ public class DirectorEmpleado implements Empleados {
         return "Soy quien gestiono la plantilla de la empresa";
     }
 
-    @Override
     public String getInformes() {
         return "Informe creado por el director: " + InformeNuevo.getInformes();
     }
